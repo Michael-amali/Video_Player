@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS_Styling/styling.css">
+    <title>Main webpage</title>
 </head>
 <body>
     <h1>Fighters</h1>
-    <video controls poster="Images/joshua_whyte.jpg">
-        <source src="Videos/JOSHUA_VS_WHYTE.mp4">
-    </video>
-    <br />
-    <br />
-    <a href="main.html" >
-        <img src="Images/Wilder_Ortiz.jpg" alt="" width="640px" height="400px">
-    </a>
-    <a href="second_site.html" >
-        <img src="Images/efeAjagba_jones.jpg" alt="" width="640px" height="400px">
-    </a>
+    <div id="wrapper-video"> 
+        <video controls poster="Images/joshua_whyte.jpg">
+            <source src="Videos/JOSHUA_VS_WHYTE.mp4">
+        </video>
+        <br />
+        <br />
+        <div class="addtional-videos">
+            <a href="main.html" >
+                <img src="Images/Wilder_Ortiz.jpg" alt="" width="320px" height="200px">
+            </a>
+            <a href="second_site.html" >
+                <img src="Images/efeAjagba_jones.jpg" alt="" width="320px" height="200px">
+            </a>
+        </div>
+    </div>
+
     
 </body>
 </html>
